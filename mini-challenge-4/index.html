@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tiana Coker" />
+
+    <title>Challenge 4</title>
+    <link rel="stylesheet" href="challenge4.css" />
+  </head>
+  <body>
+    <main class="main-container border-outline">
+      <h2>
+        Challenge 4 <br />
+        Change the Color of All Buttons!
+      </h2>
+
+      <div class="flex-container border-outline">
+        <form action="">
+          <select
+            name="backdrop"
+            id="background"
+            onchange="buttonColorChange(this)"
+          >
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+        <button class="btn btn-green">Wee!</button>
+        <button class="btn btn-red">Yahoo!</button>
+        <button class="btn btn-yellow">Google!</button>
+        <button class="btn btn-blue">Facebook!</button>
+      </div>
+    </main>
+    <script src="challenge4.js"></script>
+  </body>
+</html>
